@@ -23,7 +23,7 @@ bench = true
 doc = true
 
 [features]
-default = ["std"]
+default = ["std", "getrandom"]
 
 # Enabling this will enable `AHashMap` and `AHashSet`.
 std = []
