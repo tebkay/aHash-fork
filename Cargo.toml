@@ -23,7 +23,7 @@ bench = true
 doc = true
 
 [features]
-default = ["std", "runtime-rng"]
+default = ["std"]
 
 # Enabling this will enable `AHashMap` and `AHashSet`.
 std = []
