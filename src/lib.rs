@@ -308,7 +308,7 @@ impl<B: BuildHasher> BuildHasherExt for B {
 // #[inline(never)]
 // #[doc(hidden)]
 // pub fn hash_test(input: &[u8]) -> u64 {
-//     let a = RandomState::with_seeds(11, 22, 33, 44);
+//     let a = RandomState::with_seeds(42);
 //     <[u8]>::get_hash(input, &a)
 // }
 
